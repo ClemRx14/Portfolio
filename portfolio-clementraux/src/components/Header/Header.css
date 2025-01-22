@@ -33,12 +33,12 @@ header {
 
 .navbar-header a {
     text-decoration: none;
-    color: #333333;
+    color: #ffffff;
     font-size: 1.5vw;
 }
 
 .navbar-header a:hover {
-    color: #ffffff;
+    color: #333333;
     text-shadow: 0 0 5px rgba(0, 255, 0, 0.6), 0 0 10px rgba(0, 255, 0, 0.5);
 }
 
@@ -72,7 +72,7 @@ header {
     margin: 10px;
     margin-top: 50px;
     padding: 10px 10px;
-    color: white;
+    color: #333333;
     text-decoration: none;
     font-size: 1.2rem;
     border: 2px solid #50C878;
@@ -84,7 +84,7 @@ header {
 .links-header a:hover {
     background-color: #333333;
     color: #50C878;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 1440px) {
