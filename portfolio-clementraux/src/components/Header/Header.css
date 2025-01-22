@@ -60,3 +60,28 @@ header {
     color: #50C878;
     text-shadow: 0 0 5px rgba(0, 255, 0, 0.6), 0 0 10px rgba(0, 255, 0, 0.5);
 }
+
+.links-header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.links-header a {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+    border: 2px solid #50C878;
+    border-radius: 5px;
+    background-color: #50C878;
+    font-weight: bold;
+}
+
+.links-header a:hover {
+    background-color: #333;
+    color: #50C878;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

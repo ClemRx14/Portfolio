@@ -49,6 +49,10 @@ const Header = () => {
         <p>UI/UX Designer</p>
         <p>Performance Web</p>
       </div>
+      <div className="links-header">
+        <a href="#projects">Voir mes projets</a>
+        <a href="#contact">Me contacter</a>
+      </div>
     </header>
   );
 };
