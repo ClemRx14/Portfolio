@@ -9,7 +9,7 @@ header {
     flex-direction: column;
     background-color: #2E8B57;
     padding: 0;
-    height: 70vh;
+    height: 400px;
 }
 
 .top-header {
@@ -33,12 +33,12 @@ header {
 
 .navbar-header a {
     text-decoration: none;
-    color: #333;
+    color: #333333;
     font-size: 1.5vw;
 }
 
 .navbar-header a:hover {
-    color: #50C878;
+    color: #ffffff;
     text-shadow: 0 0 5px rgba(0, 255, 0, 0.6), 0 0 10px rgba(0, 255, 0, 0.5);
 }
 
@@ -46,25 +46,26 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10vw;
+    margin-top: 10vh;
+    cursor: pointer;
 }
 
 .text-wrapper p {
     font-size: 5vw;
-    color: #333;
+    color: #333333;
     line-height: 0;
     transition: color 0.3s ease;
 }
 
 .text-wrapper p:hover {
-    color: #50C878;
+    color: #ffffff;
     text-shadow: 0 0 5px rgba(0, 255, 0, 0.6), 0 0 10px rgba(0, 255, 0, 0.5);
 }
 
 .links-header {
     text-align: center;
     margin-top: 50px;
-}
+    }
 
 .links-header a {
     display: inline-block;
@@ -73,7 +74,7 @@ header {
     padding: 10px 10px;
     color: white;
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     border: 2px solid #50C878;
     border-radius: 5px;
     background-color: #50C878;
@@ -81,7 +82,40 @@ header {
 }
 
 .links-header a:hover {
-    background-color: #333;
+    background-color: #333333;
     color: #50C878;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+@media (min-width: 1440px) {
+    header {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .logo-header img {
+        height: 7vw;
+    }
+
+    .navbar-header a {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 1023px) {
+    header {
+        height: 400px;
+    }
+
+    .logo-header img {
+        height: 8vw;
+    }
+
+    .navbar-header a {
+        font-size: 3vw;
+    }
+}
+
+
+
