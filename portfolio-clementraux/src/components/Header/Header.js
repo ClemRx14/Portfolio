@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
   useEffect(() => {
-    const titles = gsap.utils.toArray('p');
+    const titles = gsap.utils.toArray('.text-wrapper p');
     const tl = gsap.timeline({ repeat: -1, repeatDelay: 0.2 });
   
     titles.forEach((title) => {
@@ -27,7 +27,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header id='home'>
+    <header>
       <div className="top-header">
         <div className="logo-header">
           <a href="#about">
@@ -36,7 +36,6 @@ const Header = () => {
         </div>
         <nav className="navbar-header">
           <ul>
-            <li><a href="#home">Accueil</a></li>
             <li><a href="#about">A propos</a></li>
             <li><a href="#mesprojets">Mes Projets</a></li>
             <li><a href="#contact">Contact</a></li>

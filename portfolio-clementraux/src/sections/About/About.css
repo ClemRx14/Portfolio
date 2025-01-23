@@ -18,8 +18,7 @@
     object-fit: cover;
     object-position: center top;
 }
-
-.about-description h2 {
+ h2, h3 {
     color: #50C878;
 }
 
@@ -29,4 +28,40 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: bold;
+}
+
+.about-description-paragraphes {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #E0E0E0;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.about-description-paragraphes p {
+    margin-top: 30px;
+}
+
+.about-stacks {
+    margin-top: 40px;
+}
+
+@media (max-width: 1024px) {
+    .about-description-paragraphes {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-description-paragraphes {
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-description-paragraphes {
+        max-width: 90%;
+    }
 }
