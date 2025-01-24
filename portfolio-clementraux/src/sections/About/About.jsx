@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import {ReactTyped} from 'react-typed';
 import './About.css';
 import photo from '../../assets/images/AboutClementRaux.webp';
