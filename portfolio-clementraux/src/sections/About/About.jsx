@@ -1,10 +1,22 @@
-import React, { Suspense } from 'react';
-import {ReactTyped} from 'react-typed';
+import React from 'react';
+import { ReactTyped } from 'react-typed';
 import './About.css';
 import photo from '../../assets/images/AboutClementRaux.webp';
-
+import { FaHtml5, FaCss3Alt, FaSass, FaJs, FaReact, FaGitAlt, FaFigma, FaNpm } from 'react-icons/fa';
 
 const About = () => {
+
+    const tableauStack = [
+        { icon: FaHtml5, name: "HTML5" },
+        { icon: FaCss3Alt, name: "CSS3" },
+        { icon: FaSass, name: "Sass" },
+        { icon: FaJs, name: "JavaScript" },
+        { icon: FaReact, name: "React" },
+        { icon: FaGitAlt, name: "Git" },
+        { icon: FaFigma, name: "Figma" },
+        { icon: FaNpm, name: "NPM" },
+      ];
+
     return (
         <section className="about">
             <div className="about-container">
@@ -39,7 +51,13 @@ const About = () => {
                 </div>
                 <div className="about-stacks">
                     <h3>Mes Technologies</h3>
-
+                    <div className="about-stacks-icons">
+                        {tableauStack.map((tech, index) => (
+                            <div key={index} className="about-stacks-icon">
+                                <tech.icon aria-label={tech.name} className={tech.name}/>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>

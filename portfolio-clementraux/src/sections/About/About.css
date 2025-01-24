@@ -18,7 +18,8 @@
     object-fit: cover;
     object-position: center top;
 }
- h2, h3 {
+
+h2, h3 {
     color: #50C878;
 }
 
@@ -45,23 +46,97 @@
 }
 
 .about-stacks {
-    margin-top: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-@media (max-width: 1024px) {
-    .about-description-paragraphes {
-        max-width: 90%;
-    }
+.about-stacks h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+  
+.about-stacks-icons { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1.5rem;
 }
 
-@media (max-width: 768px) {
-    .about-description-paragraphes {
+.about-stacks-icon { 
+    font-size: 3rem; 
+    transition: transform 0.3s ease-in-out; 
+    animation: float 3s ease-in-out infinite;
+    cursor: pointer;
+}
+
+.about-stacks-icon svg:hover { 
+    transform: scale(2);
+}
+
+.HTML5 {
+    color: red;
+}
+
+.CSS3 {
+    color: #264de4;
+}
+
+.React {
+    color: #61DBFB;
+}
+
+.Git {
+    color: #f14e32;
+}
+
+.Figma {
+    color: #F24E1E;
+}
+
+.NPM {
+    color: #CB3837;
+}
+
+.Sass {
+    color: #C69;
+}
+
+.JavaScript {
+    color: #F0DB4F;
+}
+
+/* Responsive */
+
+
+@media (max-width: 1024px) { 
+    .about-description-paragraphes { 
+        max-width: 90%; 
+    } 
+}
+
+@media (max-width: 768px) { 
+    .about-description-paragraphes { 
         max-width: 85%;
-    }
+    } 
 }
 
-@media (max-width: 480px) {
-    .about-description-paragraphes {
-        max-width: 90%;
-    }
+@media (max-width: 480px) { 
+    .about-description-paragraphes { 
+        max-width: 90%; 
+    } 
+}
+
+/* Animations */
+
+@keyframes float { 
+    0% { 
+        transform: translateY(0px); 
+    } 
+    50% { 
+        transform: translateY(-10px); 
+    } 
+    100% { 
+        transform: translateY(0px); 
+    } 
 }

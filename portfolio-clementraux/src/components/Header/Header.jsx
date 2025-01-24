@@ -30,27 +30,27 @@ const Header = () => {
     <header>
       <div className="top-header">
         <div className="logo-header">
-          <a href="#about">
+          <a href="#about" aria-label="Aller à la section À propos">
             <img src='/images/logoCR.svg' alt='Logo représentant les initials C et R'></img>
           </a>
         </div>
         <nav className="navbar-header">
           <ul>
-            <li><a href="#about">A propos</a></li>
-            <li><a href="#mesprojets">Mes Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" aria-label="Section À propos">A propos</a></li>
+            <li><a href="#mesprojets" aria-label="Voir mes projets">Mes Projets</a></li>
+            <li><a href="#contact" aria-label="Page de contact">Contact</a></li>
           </ul>
         </nav>
       </div>
       <div className="text-wrapper">
-        <p>Clément Raux</p>
-        <p>Frontend Developper</p>
-        <p>UI/UX Designer</p>
-        <p>Performance Web</p>
+        <p aria-label="Nom complet de l'auteur">Clément Raux</p>
+        <p aria-label="Profession de l'auteur">Frontend Developper</p>
+        <p aria-label="Expertise en conception">UI/UX Designer</p>
+        <p aria-label="Expertise en conception">Performance Web</p>
       </div>
       <div className="links-header">
-        <a href="#projects">Voir mes projets</a>
-        <a href="#contact">Me contacter</a>
+        <a href="#projects" aria-label="Voir mes projets en détail">Voir mes projets</a>
+        <a href="#contact" aria-label="Formulaire de contact">Me contacter</a>
       </div>
     </header>
   );
