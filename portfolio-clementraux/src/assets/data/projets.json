@@ -21,7 +21,7 @@
       "title": "Kasa",
       "description": "Kasa facilite la location d'appartements entre particuliers. Aujourd'hui, l'entreprise veut moderniser son service avec une nouvelle plateforme web développée en React.",
       "deuxiemeDescription": "Le code du projet datant de dix ans, il a été nécessaire de le mettre à jour pour le rendre moderne et fonctionnel grâce à React. En partant de la maquette fournie, j'ai recréé le front en utilisant React et React Router Dom. Il fallait mettre en place des routes dynamiques, concevoir des fenêtres modales interactives, développer un carrousel, et gérer les redirections vers une page d'erreur en cas d'URL invalide.",
-      "imagePreview": "/images/HomepageKasa.webp",
+      "imagePreview": "/images/HomePageKasa.webp",
       "images": [
         "/images/Kasa/Kasa1.webp",
         "/images/Kasa/Kasa2.webp",
@@ -36,7 +36,7 @@
         "title": "Argent Bank",
         "description": "Je travaille sur le développement du front-end pour Argent Bank, une nouvelle banque en ligne, en utilisant React ainsi que Redux pour créer une expérience utilisateur moderne et fluide.",
         "deuxiemeDescription": "À partir d'une maquette fournie, j'ai développé une application web sécurisée avec authentification utilisateur en utilisant React, Redux, une API pour récupérer les données et MongoDB pour le stockage des informations. L'application permet aux utilisateurs de se connecter à leur compte et de consulter leurs transactions bancaires mais aussi de changer leurs pseudos tout en persistant les données. Ce projet m'a permis de renforcer mes compétences en développement front-end et de découvrir l'architecture Redux pour la gestion d'état.",
-        "imagePreview": "/images/HomepageArgentBank.webp",
+        "imagePreview": "/images/HomePageArgentBank.webp",
         "images": [
           "/images/ArgentBank/ArgentBank1.webp",
           "/images/ArgentBank/ArgentBank2.webp",
