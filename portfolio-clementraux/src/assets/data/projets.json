@@ -1,0 +1,50 @@
+[
+   {
+      "id": 1,
+      "title": "Sophie Bluel",
+      "description": "Sophie Bluel est une architecte d'intérieur qui souhaite mettre en valeur ses créations à travers un portfolio en ligne, avec la possibilité d'ajouter ses projets via une interface administrateur.",
+      "deuxiemeDescription": "Dans ce projet, j'ai implémenté les fonctionnalités de la page d'accueil, la page de connexion pour l'administrateur, ainsi qu'une modale permettant d'ajouter de nouveaux médias. J'ai également veillé à ce que le site se mette à jour dynamiquement, sans nécessiter de rechargement de la page, en manipulant directement le DOM.",
+      "imagePreview": "/images/HomePageSophieBluel.webp",
+      "images": [
+        "/images/SophieBluel/SophieBluel1.webp",
+        "/images/SophieBluel/SophieBluel2.webp",
+        "/images/SophieBluel/SophieBluel3.webp",
+        "/images/SophieBluel/SophieBluel4.webp",
+        "/images/SophieBluel/SophieBluel5.webp",
+        "/images/SophieBluel/SophieBluel6.webp"
+      ],
+      "tech": ["JavaScript", "React", "CSS", "Figma"],
+      "repoLink": "https://github.com/ClemRx14/Projet-6-OC"
+    },
+    {
+      "id": 2,
+      "title": "Kasa",
+      "description": "Kasa facilite la location d'appartements entre particuliers. Aujourd'hui, l'entreprise veut moderniser son service avec une nouvelle plateforme web développée en React.",
+      "deuxiemeDescription": "Le code du projet datant de dix ans, il a été nécessaire de le mettre à jour pour le rendre moderne et fonctionnel grâce à React. En partant de la maquette fournie, j'ai recréé le front en utilisant React et React Router Dom. Il fallait mettre en place des routes dynamiques, concevoir des fenêtres modales interactives, développer un carrousel, et gérer les redirections vers une page d'erreur en cas d'URL invalide.",
+      "imagePreview": "/images/HomepageKasa.webp",
+      "images": [
+        "/images/Kasa/Kasa1.webp",
+        "/images/Kasa/Kasa2.webp",
+        "/images/Kasa/Kasa3.webp",
+        "/images/Kasa/Kasa4.webp"
+      ],
+      "tech": ["JavaScript", "React", "CSS", "Figma"],
+      "repoLink": "https://github.com/ClemRx14/kasafr"
+    },
+    {
+        "id": 3,
+        "title": "Argent Bank",
+        "description": "Je travaille sur le développement du front-end pour Argent Bank, une nouvelle banque en ligne, en utilisant React ainsi que Redux pour créer une expérience utilisateur moderne et fluide.",
+        "deuxiemeDescription": "À partir d'une maquette fournie, j'ai développé une application web sécurisée avec authentification utilisateur en utilisant React, Redux, une API pour récupérer les données et MongoDB pour le stockage des informations. L'application permet aux utilisateurs de se connecter à leur compte et de consulter leurs transactions bancaires mais aussi de changer leurs pseudos tout en persistant les données. Ce projet m'a permis de renforcer mes compétences en développement front-end et de découvrir l'architecture Redux pour la gestion d'état.",
+        "imagePreview": "/images/HomepageArgentBank.webp",
+        "images": [
+          "/images/ArgentBank/ArgentBank1.webp",
+          "/images/ArgentBank/ArgentBank2.webp",
+          "/images/ArgentBank/ArgentBank3.webp",
+          "/images/ArgentBank/ArgentBank4.webp"
+        ],
+        "tech": ["JavaScript", "React", "CSS", "Figma", "Node"],
+        "repoLink": "https://github.com/ClemRx14/argent-bank"
+    }
+]
+  

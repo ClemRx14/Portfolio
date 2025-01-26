@@ -15,13 +15,13 @@ const Header = () => {
         opacity: 0,
         y: 80,
         rotateX: -90,
-        stagger: 0.05,
+        stagger: 0.02,
       }, "<")
       .to(splitTitle.chars, {
         opacity: 0,
         y: -80,
         rotateX: 90,
-        stagger: 0.05,
+        stagger: 0.02,
       }, "<1");
     });
   }, []);
@@ -46,10 +46,10 @@ const Header = () => {
         <p aria-label="Nom complet de l'auteur">Clément Raux</p>
         <p aria-label="Profession de l'auteur">Frontend Developper</p>
         <p aria-label="Expertise en conception">UI/UX Designer</p>
-        <p aria-label="Expertise en conception">Performance Web</p>
+        <p aria-label="Expertise en Performance">Performance Web</p>
       </div>
       <div className="links-header">
-        <a href="#projects" aria-label="Voir mes projets en détail">Voir mes projets</a>
+        <a href="#mesprojets" aria-label="Voir mes projets en détail">Voir mes projets</a>
         <a href="#contact" aria-label="Formulaire de contact">Me contacter</a>
       </div>
     </header>

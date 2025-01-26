@@ -1,0 +1,89 @@
+.liste-projects {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #333333;
+}
+
+.titre-projects {
+    margin-bottom: 150px;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 50px;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    background-color: #50C878;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(10px);
+}
+
+.project-card img {
+    object-fit: cover;
+    object-position: center top;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    font-weight: bold;
+    color: black;
+}
+
+.project-card p {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.project-card ul {
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.project-card li {
+    color: black;
+}
+
+.project-card a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+    display: inline-block;
+    transition: color 0.3s ease-in;
+}
+
+.project-card a:hover {
+    color: black;
+}
+
+
+/* Responsive  */
+
+
+@media (max-width: 768px) { 
+    .project-card { 
+        max-width: 90%; 
+    } 
+}
