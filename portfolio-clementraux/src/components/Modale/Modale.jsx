@@ -22,7 +22,7 @@ const Modale = ({ project, closeModale }) => {
           <button className="image-suivante" onClick={nextImage}>❯</button>
         </div>
         <p>{project.deuxiemeDescription}</p>
-        <a href={project.repoLink} target="_blank">Voir le projet sur Github</a>
+        <a href={project.repoLink} target="_blank" rel="noopener noreferrer">Voir le projet sur Github</a>
         <button className="close-modale" onClick={closeModale}>Fermer</button>
       </div>
     </div>

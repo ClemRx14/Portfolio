@@ -38,7 +38,7 @@ const Projets = () => {
                             <li key={index}>{tech}</li>
                         ))}
                     </ul>
-                    <a href={project.repoLink} target="_blank">Voir le projet sur GitHub</a>
+                    <a href={project.repoLink} target="_blank" rel="noopener noreferrer">Voir le projet sur GitHub</a>
                 </div>
             ))};
             {isModaleOpen && <Modale project={selectedProject} closeModale={closeModale} />}
