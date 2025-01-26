@@ -24,3 +24,11 @@ footer {
     margin: 0 15px;
     font-size: 4rem;
 }
+
+/* Responsive  */
+
+@media (max-width: 768px) {
+    .footer-content {
+        font-size: 1rem;
+    }
+}
