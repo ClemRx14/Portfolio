@@ -50,7 +50,7 @@
 
 .project-card p {
     font-size: 1.2rem;
-    color: white;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -67,7 +67,7 @@
 
 .project-card a {
     font-size: 1rem;
-    color: white;
+    color: black;
     text-decoration: underline;
     font-weight: 600;
     display: inline-block;
@@ -75,7 +75,7 @@
 }
 
 .project-card a:hover {
-    color: black;
+    color: white;
 }
 
 
