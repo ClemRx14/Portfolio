@@ -40,7 +40,7 @@ const Projets = () => {
                     </ul>
                     <a href={project.repoLink} target="_blank" rel="noopener noreferrer">Voir le projet sur GitHub</a>
                 </div>
-            ))};
+            ))}
             {isModaleOpen && <Modale project={selectedProject} closeModale={closeModale} />}
         </div>
     );

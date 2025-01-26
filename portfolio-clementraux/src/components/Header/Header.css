@@ -22,7 +22,7 @@ header {
 }
 
 .logo-header img {
-    height: 5vw;
+    height: 5rem;
     cursor: pointer;
 }
 
@@ -37,6 +37,7 @@ header {
     color: black;
     position: relative;
     transition: color 0.3s ease;
+    font-size: 1.5rem;
 }
 
 .navbar-header a::before {
@@ -102,25 +103,13 @@ header {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Responsive  */
 
-@media (min-width: 1024px) and (max-width: 1439px) {
-    .logo-header img {
-        height: 4vw;
-    }
-
+@media (max-width: 768px) {
     .navbar-header a {
-        font-size: 2vw;
+        font-size: 1rem;
     }
 }
 
-@media (max-width: 1023px) {
 
-    .logo-header img {
-        height: 8vw;
-    }
-
-    .navbar-header a {
-        font-size: 3vw;
-    }
-}
 
