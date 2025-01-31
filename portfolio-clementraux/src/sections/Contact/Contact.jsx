@@ -14,7 +14,7 @@ const Contact = () => {
                 </li>
                 <li className="contact-item">
                     <span className="contact-label">Email :</span>
-                    <span className="contact-info">clement.raux2@orange.fr</span>
+                    <a className="contact-info" href="mailto:clement.raux2@orange.fr">clement.raux2@orange.fr</a>
                 </li>
             </ul>
         </section>

@@ -54,7 +54,7 @@ const About = () => {
                     <div className="about-stacks-icons">
                         {tableauStack.map((tech, index) => (
                             <div key={index} className="about-stacks-icon">
-                                <tech.icon aria-label={tech.name} className={tech.name}/>
+                                <tech.icon aria-label={tech.name} alt={tech.name} className={tech.name}/>
                             </div>
                         ))}
                     </div>
